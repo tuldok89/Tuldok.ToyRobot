@@ -30,7 +30,7 @@ namespace Tuldok.ToyRobot.Cli
                 var cmd = Console.ReadLine();
                 try
                 {
-                    parser.Parse(cmd);
+                    parser.Parse(cmd ?? string.Empty);
                 }
                 catch (Exception ex)
                 {
