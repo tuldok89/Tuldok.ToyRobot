@@ -23,3 +23,12 @@
 
 1. Open a terminal / command promptin the `Tuldok.ToyRobot.Test` directory.
 2. Execute `dotnet test` in the terminal.
+
+## Commands
+
+- `PLACE X,Y,DIRECTION`: Valid values for `X` and `Y` are 0 to 4. `DIRECTION` is one of the for cardinal directions: `NORTH`, `EAST`, `SOUTH` or `WEST`.
+- `MOVE`: Instructs the robot to move 1 square in the direction it is facing.
+- `LEFT`: Instructs the robot to rotate 90° anticlockwise/counterclockwise.
+- `RIGHT`: Instructs the robot to rotate 90° clockwise.
+- `REPORT`: Outputs the robot's current location on the tabletop and the direction it is facing.
+- `QUIT`: Exits the application.
